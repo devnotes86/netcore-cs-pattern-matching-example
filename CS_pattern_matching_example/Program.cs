@@ -159,3 +159,13 @@ Console.WriteLine($"lastMotorcycle_2: {lastMotorcycle_2}"); // Indian
 // secondLast index
 var secondLastMotorcycle = motorcycleMakes[^2];
 Console.WriteLine($"secondLastMotorcycle: {secondLastMotorcycle}"); // Aprilia
+
+
+
+/*---------------------------VALIDATING CAR -------------------------*/
+
+var isCarValid_traditionalCheck = car1.ValidateCar_traditionalIfs();
+Console.WriteLine($"isCarValid_traditionalCheck: {isCarValid_traditionalCheck}"); 
+
+var isCarValid_patternMatching = car1.ValidateCar_patternMatching();
+Console.WriteLine($"isCarValid_patternMatching: {isCarValid_patternMatching}"); 
